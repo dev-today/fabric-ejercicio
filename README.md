@@ -15,7 +15,7 @@ sudo mv hlf-saas-cli /usr/local/bin/hlf-saas-cli
 ### Windows
 
 Descargue este tar.gz, extráigalo y agréguelo a un directorio que este en el PATH del sistema:
-https://github.com/kfsoftware/hlf-saas-cli-releases/releases/download/v0.0.6/hlf-saas-cli_0.0.6_linux_amd64.tar.gz
+https://github.com/kfsoftware/hlf-saas-cli-releases/releases/download/v0.0.6/hlf-saas-cli_0.0.6_windows_amd64.tar.gz
 
 ### Apple AMD
 Download this tar.gz, extract it and add it to the bin:
