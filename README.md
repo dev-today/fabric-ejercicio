@@ -40,19 +40,31 @@ tar -zxvf hlf-saas-cli_0.0.6_darwin_arm64.tar.gz
 sudo mv hlf-saas-cli /usr/local/bin/hlf-saas-cli
 ```
 
-### Login
+### Autenticarse con las credenciales
 
 ```bash
 hlf-saas-cli auth login
 ```
 
+### Empezar chaincode
+
+#### Windows
 ```bash
-hlf-saas-cli dev start --localChaincode="localhost:9999" --chaincode=jviejo_ejercicio --env-file=.env
+hlf-saas-cli dev start --localChaincode="localhost:9999" --chaincode="%username%_ejercicio" --env-file=.env
 ```
+
+#### Linux & Mac
+```bash
+hlf-saas-cli dev start --localChaincode="localhost:9999" --chaincode="${USER}_ejercicio" --env-file=.env
+```
+
+## Empezar tunnel a local
 
 ```bash
 hlf-saas-cli dev listen --forward-to=localhost:9999
 ```
+
+## Lanzar servidor en local
 
 ```bash
 npm run desarrollo contrato
