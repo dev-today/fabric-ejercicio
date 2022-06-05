@@ -6,7 +6,7 @@ Instalar hlf-saas-cli:
 
 Ejecutar los siguientes comandos:
 ```bash
-VERSION=0.0.6
+VERSION=0.0.8
 wget "https://github.com/kfsoftware/hlf-saas-cli-releases/releases/download/v${VERSION}/hlf-saas-cli_${VERSION}_linux_amd64.tar.gz"
 tar -zxvf hlf-saas-cli_${VERSION}_linux_amd64.tar.gz
 sudo mv hlf-saas-cli /usr/local/bin/hlf-saas-cli
@@ -15,15 +15,15 @@ sudo mv hlf-saas-cli /usr/local/bin/hlf-saas-cli
 ### Windows
 
 Descargue este tar.gz, extráigalo y agréguelo a un directorio que este en el PATH del sistema:
-https://github.com/kfsoftware/hlf-saas-cli-releases/releases/download/v0.0.6/hlf-saas-cli_0.0.6_windows_amd64.tar.gz
+https://github.com/kfsoftware/hlf-saas-cli-releases/releases/download/v0.0.8/hlf-saas-cli_0.0.8_windows_amd64.tar.gz
 
 ### Apple AMD
 Download this tar.gz, extract it and add it to the bin:
 
 ```bash
-VERSION=0.0.6
+VERSION=0.0.8
 wget "https://github.com/kfsoftware/hlf-saas-cli-releases/releases/download/v${VERSION}/hlf-saas-cli_${VERSION}_darwin_amd64.tar.gz"
-tar -zxvf hlf-saas-cli_0.0.6_darwin_amd64.tar.gz
+tar -zxvf hlf-saas-cli_0.0.8_darwin_amd64.tar.gz
 sudo mv hlf-saas-cli /usr/local/bin/hlf-saas-cli
 ```
 
@@ -34,9 +34,9 @@ Replace VERSION with the version in the linux section above.
 
 Descargue este tar.gz, extráigalo y agréguelo a un directorio que este en el PATH del sistema:
 ```bash
-VERSION=0.0.6
+VERSION=0.0.8
 wget "https://github.com/kfsoftware/hlf-saas-cli-releases/releases/download/v${VERSION}/hlf-saas-cli_${VERSION}_darwin_arm64.tar.gz"
-tar -zxvf hlf-saas-cli_0.0.6_darwin_arm64.tar.gz
+tar -zxvf hlf-saas-cli_0.0.8_darwin_arm64.tar.gz
 sudo mv hlf-saas-cli /usr/local/bin/hlf-saas-cli
 ```
 
