@@ -46,6 +46,12 @@ sudo mv hlf-saas-cli /usr/local/bin/hlf-saas-cli
 hlf-saas-cli auth login
 ```
 
+## Empezar tunnel a local
+
+```bash
+hlf-saas-cli dev listen --forward-to=localhost:9999
+```
+
 ### Empezar chaincode
 
 #### Windows
@@ -58,11 +64,6 @@ hlf-saas-cli dev start --localChaincode="localhost:9999" --chaincode="%username%
 hlf-saas-cli dev start --localChaincode="localhost:9999" --chaincode="${USER}_ejercicio" --env-file=.env
 ```
 
-## Empezar tunnel a local
-
-```bash
-hlf-saas-cli dev listen --forward-to=localhost:9999
-```
 
 ## Lanzar servidor en local
 
